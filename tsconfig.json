@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+     "jsx": "react",
+     "module": "commonjs",
+     "noImplicitAny": false,
+     "outDir": "./build/",
+     "preserveConstEnums": true,
+     "removeComments": true,
+     "target": "ES5",
+     "lib": [
+        "dom",
+        "es5",
+        "scripthost",
+        "es2015.promise",
+        "es2015"
+        ]
+    },
+    "exclude": [
+     "node_modules"
+    ]
+}
